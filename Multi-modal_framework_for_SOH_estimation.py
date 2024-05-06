@@ -19,7 +19,7 @@ tf.random.set_seed(2024)
 
 # In[import and split data]
 path_feature = 'E:\\Multi-modal framework for SOH estimation\\Multi-modal_features\\'
-data_point_pd = pd.read_csv(path_feature+'result_GPR.csv') 
+data_point_pd = pd.read_csv(path_feature+'point_features.csv') 
 data_seq_pd = pd.read_csv(path_feature+'151by2_V1.csv')
 data_plane_pd = pd.read_csv(path_feature+'96by96_V1.csv')
 useful = [3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]# 
