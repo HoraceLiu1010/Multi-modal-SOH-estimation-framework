@@ -18,7 +18,7 @@ seed(2024)
 tf.random.set_seed(2024)
 
 # In[import and split data]
-path_feature = 'E:\\Multi-modal framework for SOH estimation\\Multi-modal_features\\'
+path_feature = 'E:\\Multi-modal framework for SOH estimation\\Multi-modal_features\\' # Please replace the path here
 data_point_pd = pd.read_csv(path_feature+'point_features.csv') 
 data_seq_pd = pd.read_csv(path_feature+'151by2_V1.csv')
 data_plane_pd = pd.read_csv(path_feature+'96by96_V1.csv')
@@ -213,9 +213,8 @@ callback_list = [
 history = model.fit([xt_plane, xt_seq, xt_point], yt, batch_size=16, epochs=epochs, validation_split=0.2, verbose=1, callbacks=callback_list )
 loss = history.history
 
-model_name = 'model_sample.tf.tf'
+model_name = 'model_sample.tf'
 # model.save(model_name)
-# model = keras.models.load_model(model_name)
 
 # In[plot the training loss]
 plt.figure(figsize=(5,3),dpi=400)
