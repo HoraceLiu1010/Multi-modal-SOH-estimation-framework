@@ -9,4 +9,5 @@ Tensorflow&Keras 2.10.0 are required.
 
 # EV field data
 EV_feild_data_sample: Operating data from one EV, divided into several files for downloading. 
-EV_feild_data: Operating data from EVs. Each file contains the data collected from one EV. More data are uploading...
+
+EV_feild_data: Operating data collected from EVs. Each file contains the data collected from one EV. More data are uploading...
