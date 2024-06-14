@@ -10,4 +10,5 @@ Tensorflow&Keras 2.10.0 are required.
 # EV field data
 EV_feild_data_sample: Operating data from one EV, divided into several files for downloading. 
 
+# Please cite our work before using the data
 For more information, please contact us with: liuhongao@cqu.edu.cn
